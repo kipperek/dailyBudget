@@ -4,10 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { DashboardComponentComponent } from './dashboard-component/dashboard-component.component';
+import 'foundation-sites';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponentComponent
   ],
   imports: [
     BrowserModule,
